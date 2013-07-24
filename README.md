@@ -30,3 +30,12 @@ pod 'UIViewController+APSContainment', :git => 'https://github.com/andrewsardone
 To install manually, clone the repo and copy the files within `Classes/` into your Xcode project.
 
 [scp]: https://github.com/CocoaPods/Specs
+
+## Testing
+
+To run the unit tests, bootstrap your environment and then test from either Xcode or the command line:
+
+```
+> script/bootstrap
+> script/test
+```

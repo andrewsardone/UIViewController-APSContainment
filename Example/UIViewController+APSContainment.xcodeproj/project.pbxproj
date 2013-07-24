@@ -21,6 +21,7 @@
 		49631BB7179F571700E3D568 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49631B97179F571700E3D568 /* UIKit.framework */; };
 		49631BB8179F571700E3D568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49631B99179F571700E3D568 /* Foundation.framework */; };
 		49631BC0179F571700E3D568 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49631BBE179F571700E3D568 /* InfoPlist.strings */; };
+		49631BCD179F5B8500E3D568 /* UIViewController+APSContainmentSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 49631BCC179F5B8500E3D568 /* UIViewController+APSContainmentSpec.m */; };
 		8CCB75E2F95041D3BE1FC4FA /* libPods-UIViewController+APSContainmentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B9DE1820FA45FDB3499467 /* libPods-UIViewController+APSContainmentTests.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		49631BB5179F571700E3D568 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		49631BBD179F571700E3D568 /* UIViewController+APSContainmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController+APSContainmentTests-Info.plist"; sourceTree = "<group>"; };
 		49631BBF179F571700E3D568 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49631BCC179F5B8500E3D568 /* UIViewController+APSContainmentSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+APSContainmentSpec.m"; sourceTree = "<group>"; };
 		744071CA4CA94DC9B5771ED5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64576CE0AF5427CB96E255A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		EFE71766EEF74C5986115825 /* Pods-UIViewController+APSContainmentTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewController+APSContainmentTests.xcconfig"; path = "Pods/Pods-UIViewController+APSContainmentTests.xcconfig"; sourceTree = SOURCE_ROOT; };
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				49631BBC179F571700E3D568 /* Supporting Files */,
+				49631BCC179F5B8500E3D568 /* UIViewController+APSContainmentSpec.m */,
 			);
 			path = "UIViewController+APSContainmentTests";
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49631BCD179F5B8500E3D568 /* UIViewController+APSContainmentSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

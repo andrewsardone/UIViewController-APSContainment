@@ -1,0 +1,12 @@
+#!/bin/sh
+# Usage: script/test
+# Runs the project's unit tests
+
+SCRIPT_DIR=$(dirname "$0")
+cd "$SCRIPT_DIR/.."
+
+vendor/xctool/xctool.sh -workspace Example/UIViewController+APSContainment.xcworkspace \
+  -scheme UIViewController+APSContainment \
+  -sdk iphonesimulator \
+  ONLY_ACTIVE_ARCH=NO \
+  test

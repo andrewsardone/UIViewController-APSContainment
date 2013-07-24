@@ -1,0 +1,14 @@
+platform :ios, :deployment_target => "5.0"
+
+pod 'UIViewController+APSContainment', :path => '../UIViewController+APSContainment.podspec'
+
+target 'UIViewController+APSContainmentTests', :exclusive => true do
+  # matchers
+  pod 'Expecta', '~> 0.2.2'
+
+  # bdd framework
+  pod 'Specta', '~> 0.1.11'
+
+  # mocking and faking
+  pod 'OCMock', '~> 2.2'
+end

@@ -1,0 +1,23 @@
+PODS:
+  - Expecta (0.2.2)
+  - OCMock (2.2)
+  - Specta (0.1.11)
+  - UIViewController+APSContainment (0.1.0)
+
+DEPENDENCIES:
+  - Expecta (~> 0.2.2)
+  - OCMock (~> 2.2)
+  - Specta (~> 0.1.11)
+  - UIViewController+APSContainment (from `../UIViewController+APSContainment.podspec`)
+
+EXTERNAL SOURCES:
+  UIViewController+APSContainment:
+    :path: ../UIViewController+APSContainment.podspec
+
+SPEC CHECKSUMS:
+  Expecta: 99adbb2e366a02796477523bfd426143350d9caf
+  OCMock: 5300ae6b75398fc3ae6cbf9102191333d35f6852
+  Specta: 82746c6fd70b104c5d37cfbadb7bf15a2cbc4da0
+  UIViewController+APSContainment: 054d5fe5485138bc1a84ce06c2613b50d9f72fb5
+
+COCOAPODS: 0.22.3

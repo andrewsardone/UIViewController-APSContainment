@@ -39,3 +39,7 @@ To run the unit tests, bootstrap your environment and then test from either Xcod
 > script/bootstrap
 > script/test
 ```
+
+The tests live in [`Example/UIViewController+APSContainmentTests/`][testloc].
+
+[testloc]: https://github.com/andrewsardone/UIViewController-APSContainment/tree/master/Example/UIViewController%2BAPSContainmentTests

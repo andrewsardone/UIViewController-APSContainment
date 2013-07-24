@@ -5,9 +5,10 @@ Added in iOS 5, the collection of UIViewController containment APIs made it nice
 [srg]: https://gist.github.com/andrewsardone/5854342
 [cf]: http://confusatory.org/post/54049609435/notes-on-child-view-controllers
 
-To make life easier, [Matt Drance][md] wrote a UIViewController category that handles the boilerplate view hierarhcy manipulation and container callback events:
+To make life easier, [Matt Drance][md] wrote a [UIViewController category][mduivcc] that handles the boilerplate view hierarhcy manipulation and container callback events:
 
 [md]: https://github.com/drance
+[mduivcc]: https://gist.github.com/drance/5886813
 
 ```objc
 [parentVC aps_addChildViewController:childVC];
